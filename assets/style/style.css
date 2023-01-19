@@ -1,0 +1,189 @@
+/* Seteo inicial */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+head {
+    background: white;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;    
+}
+
+footer {
+    background: #363636;
+    width: 100%;
+    text-align: center;
+    padding: 15px 15px;
+    padding-bottom: 20px;
+}
+
+form { 
+    background: #363636;
+    position: relative;
+    border: 0 0 0 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+input{ 
+    background: white;
+    position: relative;
+    border: 0 0 0 0;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    position:fixed;
+    text-align: center;
+    background-color: #363636;    
+}
+
+.logonav{
+    width: 25%;
+    float: none;
+    padding: 3px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    float: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #ffa500;
+    width: 80px;
+    padding: 10px;
+}
+
+a:active {
+    background-color: #7c7c7c;
+    padding: 10px;
+}
+
+
+.fontstylenav{
+    text-decoration: white;
+    float: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.listado {
+    color: #7c7c7c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.listado > ul li {
+    list-style: disc;   
+}
+
+.sectiontitle {
+    color: #ffa500;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.descriptiontext {
+    color: grey;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.imgAboutUs {
+    width: 100%;
+    list-style: none;
+}
+
+.blog-img {
+    width: 50%;
+}
+
+.img-inline{
+    display: flex;
+}
+
+
+.imgblog {
+    width: 100%;
+    text-align: center;
+    padding: 0% 0%; 
+}
+
+.sectiontitleblog {
+    color: #ffa500;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.sectiontitleportfolio {
+    color: #ffa500;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+form fieldset textarea{ 
+    background: white;
+    position: relative;
+    border: 0 0 0 0;
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.textform{
+    color:white;
+    text-align:center;
+}
+
+.buttonfomr { 
+    text-align: center;
+}
+
+.textstylefooter{ 
+    color: white;
+    padding: 15px;
+}
+
+.textcontacto{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    text-decoration:#7c7c7c;
+}
+
+
+.logosfooter{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+}
